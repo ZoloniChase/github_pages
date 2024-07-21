@@ -1,0 +1,40 @@
+.center {
+    text-align: center;
+}
+
+.top {
+    background-color: #222;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Full viewport height */
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;  /* Full width */
+    height: 100%; /* Full height */
+}
+
+.animations {
+    width: 50%;
+    height: 50%;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite; /* Optional: Make the animation loop */
+}
+
+@keyframes example {
+    0% {background-color: red;}
+    25% {background-color: yellow;}
+    50% {background-color: blue;}
+    75% {background-color: black;}
+    100% {background-color: green;}
+}
