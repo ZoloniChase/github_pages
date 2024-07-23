@@ -27,7 +27,7 @@
     height: 50%;
     background-color: red;
     animation-name: example;
-    animation-duration: 4s;
+    animation-duration:7s;
     animation-iteration-count: infinite; /* Optional: Make the animation loop */
 }
 
