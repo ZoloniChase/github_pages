@@ -38,3 +38,30 @@
     75% {background-color: black;}
     100% {background-color: green;}
 }
+.middle{
+    background-color:#f5f5f5;
+
+}
+
+.side{
+    display:flex;
+    list-style-type: none;
+    justify-content: center;
+   
+
+    
+    
+    
+    
+    
+    
+}
+.padding{
+    padding:2px;
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+
+
